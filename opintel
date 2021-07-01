@@ -42,7 +42,9 @@
         "Availability": "100%"
       }
     ],
-    "Azure_Alert": [
+  },
+  {
+	  "Azure_Alert": [
       {
         "Count": "0",
         "Alert_Name": "Critical"
@@ -60,7 +62,9 @@
         "Alert_Name": "Informational"
       }
     ],
-    "Azure_Backup": [
+  },
+  {
+    "Azure_Backup":[
       {
         "Backup_Status": "Success",
         "CompletedAt": "0 days,15 hours,52 minutes,16 seconds",
@@ -1924,80 +1928,6 @@
         "cpu_cores": "772m",
         "memory_bytes": "7083Mi",
         "Name": "aks-agentpool-10344397-9"
-      }
-    ]
-  },
-  {
-    "OI_Web_Test": [
-      {
-        "Status": "SUCCESS",
-        "Output": "Login Successful",
-        "Scenario": "User Login"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "Connected",
-        "Scenario": "Device Connection Status"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "DEVICE COMMAND SUCCESSFUL",
-        "Scenario": "Sync Data"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "07/01/2021 21:17:07",
-        "Scenario": "Heartbeat Timestamp"
-      },
-      {
-        "Status": "FAIL",
-        "Output": "07/01/2021 11:11:17",
-        "Scenario": "Telemetry Timestamp"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "Jul 01 2021 20:46:21.024",
-        "Scenario": "Latest Event Timestamp"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "07/01/2021 11:11:17",
-        "Scenario": "Latest Location Timestamp"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "File Uploaded in My Software",
-        "Scenario": "SW Job File Upload"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "Job Scheduled success",
-        "Scenario": "SW Job Schedule"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "Device List available in Scheduled Job",
-        "Scenario": "SW Job Device List"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "Remote of Device available",
-        "Scenario": "Device Remote Page"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "Provision mode enabled-honeywell folder present",
-        "Scenario": "Provision Mode Enable"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "FileData.txt file is uploaded successfully.",
-        "Scenario": "Remote Page-File Upload"
-      },
-      {
-        "Status": "SUCCESS",
-        "Output": "File(s) are deleted successfully.",
-        "Scenario": "Remote Page-File Delete"
       }
     ]
   }
