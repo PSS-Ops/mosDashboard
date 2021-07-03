@@ -1,194 +1,60 @@
-[
-  {
-    "Datadog_Monitoring_VM": [
-      {
-        "Availability": "ACTIVE",
-        "VM_Name": "TestB1"
-      },
-      {
-        "Availability": "ACTIVE",
-        "VM_Name": "TestB2"
-      },
-      {
-        "Availability": "ACTIVE",
-        "VM_Name": "DemoB1"
-      },
-      {
-        "Availability": "ACTIVE",
-        "VM_Name": "DemoB2"
-      },
-      {
-        "Availability": "ACTIVE",
-        "VM_Name": "ProdB1"
-      },
-      {
-        "Availability": "ACTIVE",
-        "VM_Name": "ProdB2"
-      }
-    ]
-  },
-  {
-    "Datadog_Monitoring_Alerts": [
-      {
-        "Count": "0",
-        "Alert_Name": "Alert"
-      },
-      {
-        "Count": "0",
-        "Alert_Name": "Warn"
-      },
-      {
-        "Count": "0",
-        "Alert_Name": "No Data"
-      }
-    ]
-  },
-  {
-    "CatchPointMonitoring": [
-      {
-        "API_Name": "SPS_SMARTTALK_Admin",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_API",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_Login",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_Sync",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_UEM",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_test_admin",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_test_api",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_test_login",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_test_sync",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_test_uem",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_demo_admin",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_demo_api_Stretto",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_demo_login",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_demo_sync",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "SPS_SMARTTALK_demo_uem",
-        "Availability": "100%"
-      }
-    ]
-  },
-  {
-    "Azure_API": [
-      {
-        "API_Name": "Demo_Admin",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "Demo_Api",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "Demo_Login",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "Demo_Sync",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "Demo_Uem",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "Prod_Admin",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "Prod_Api",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "Prod_Login",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "Prod_Sync",
-        "Availability": "100%"
-      },
-      {
-        "API_Name": "Prod_Uem",
-        "Availability": "100%"
-      }
-    ]
-  },
-  {
-    "Azure_Backup": [
-      {
-        "Backup_Status": "Success",
-        "CompletedAt": "0 days,13 hours,59 minutes,45 seconds",
-        "DateTime": "7/2/2021 1:42:15 AM",
-        "VM_Name": "demo-stretto-b1"
-      },
-      {
-        "Backup_Status": "Success",
-        "CompletedAt": "0 days,13 hours,59 minutes,45 seconds",
-        "DateTime": "7/2/2021 1:39:34 AM",
-        "VM_Name": "demo-stretto-b2"
-      },
-      {
-        "Backup_Status": "Success",
-        "CompletedAt": "0 days,13 hours,59 minutes,45 seconds",
-        "DateTime": "7/2/2021 1:42:15 AM",
-        "VM_Name": "new-stretto"
-      },
-      {
-        "Backup_Status": "Success",
-        "CompletedAt": "0 days,13 hours,59 minutes,45 seconds",
-        "DateTime": "7/2/2021 9:55:17 AM",
-        "VM_Name": "new-stretto-b2"
-      },
-      {
-        "Backup_Status": "Success",
-        "CompletedAt": "0 days,13 hours,59 minutes,45 seconds",
-        "DateTime": "7/1/2021 3:44:33 PM",
-        "VM_Name": "prod-stretto-b1"
-      },
-      {
-        "Backup_Status": "Success",
-        "CompletedAt": "0 days,13 hours,59 minutes,45 seconds",
-        "DateTime": "7/1/2021 3:44:33 PM",
-        "VM_Name": "prod-stretto-b1"
-      }
-    ]
-  }
-]
+[{
+	"DatadogMonitoring": {
+		"ProdB1": "ACTIVE",
+		"ProdB2": "ACTIVE",
+		"TestB1": "ACTIVE",
+		"Alert_Status": "0 Alert(s) <br><br>  1 Warning(s)",
+		"TestB2": "ACTIVE",
+		"DemoB1": "ACTIVE",
+		"DemoB2": "ACTIVE"
+	}
+}, {
+	"CatchPointMonitoring": {
+		"Prod_Sync": "100%",
+		"Demo_Sync": "100%",
+		"Test_Sync": "100%",
+		"Demo_Admin": "100%",
+		"Prod_Api": "100%",
+		"Test_Api": "100%",
+		"Prod_Uem": "100%",
+		"Test_Login": "100%",
+		"Demo_Uem": "100%",
+		"Test_Admin": "99.604%",
+		"Demo_Api": "100%",
+		"Test_Uem": "100%",
+		"Demo_Login": "100%",
+		"Prod_Admin": "100%",
+		"Prod_Login": "100%"
+	}
+}, {
+	"AzureMonitoring": {
+		"Prod_Sync": "100.00%",
+		"DemoB2_Status": "Success",
+		"DemoB1_Status": "Success",
+		"ProdB1_Status": "Success",
+		"ProdB2_Status": "Success",
+		"DemoB2_DateTime": "6\/14\/2021 1:35:30 AM",
+		"TestB1_Status": "Success",
+		"Prod_Api": "100.00%",
+		"TestB1_CompletedAt": "0 days,18 hours,26 minutes,49 seconds",
+		"TestB2_CompletedAt": "0 days,18 hours,26 minutes,49 seconds",
+		"Prod_Uem": "100.00%",
+		"DemoB1_DateTime": "6\/14\/2021 1:35:36 AM",
+		"Demo_Api": "100.00%",
+		"TestB2_Status": "Success",
+		"ProdB1_DateTime": "6\/13\/2021 3:40:55 PM",
+		"Demo_Sync": "100.00%",
+		"TestB1_DateTime": "6\/14\/2021 1:35:36 AM",
+		"ProdB1_CompletedAt": "0 days,18 hours,26 minutes,49 seconds",
+		"ProdB2_DateTime": "6\/13\/2021 3:40:55 PM",
+		"Demo_Admin": "100.00%",
+		"DemoB1_CompletedAt": "0 days,18 hours,26 minutes,49 seconds",
+		"DemoB2_CompletedAt": "0 days,18 hours,26 minutes,49 seconds",
+		"ProdB2_CompletedAt": "0 days,18 hours,26 minutes,49 seconds",
+		"Demo_Uem": "100.00%",
+		"Demo_Login": "100.00%",
+		"Prod_Admin": "100.00%",
+		"TestB2_DateTime": "6\/14\/2021 9:49:44 AM",
+		"Prod_Login": "100.00%"
+	}
+}]
