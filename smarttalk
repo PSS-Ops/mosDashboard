@@ -1,1 +1,160 @@
-[{"Datadog_Monitoring_VM":[{"Availability":"ACTIVE","VM_Name":"new-stretto.honeywell.com"},{"Availability":"ACTIVE","VM_Name":"new-stretto-b2.honeywell.com"},{"Availability":"ACTIVE","VM_Name":"demo-stretto-b1.honeywell.com"},{"Availability":"ACTIVE","VM_Name":"demo-stretto-b2"},{"Availability":"ACTIVE","VM_Name":"prod-stretto-b1.honeywell.com"},{"Availability":"ACTIVE","VM_Name":"prod-stretto-b2.honeywell.com"}]},{"Datadog_Monitoring_Alerts":[{"Count":"0","Alert_Name":"Alert","Url":""},{"Count":"0","Alert_Name":"Warn","Url":""},{"Count":"0","Alert_Name":"No Data","Url":""}]},{"CatchPoint_Monitoring":[{"API_Name":"Admin","Availability_Test":"100%","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"Api","Availability_Test":"100%","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"Login","Availability_Test":"100%","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"Sync","Availability_Test":"100%","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"UEM","Availability_Test":"100%","Availability_Prod":"100%","Availability_Demo":"100%"}]},{"Azure_API":[{"API_Name":"Admin","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"Api","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"Login","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"Sync","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"UEM","Availability_Prod":"100%","Availability_Demo":"100%"}]},{"Azure_Backup":[{"Backup_Status":"Success","CompletedAt":"0 days,20 hours,31 minutes,32 seconds","DateTime":"7\/26\/2021 1:33:51 AM","VM_Name":"demo-stretto-b1"},{"Backup_Status":"Success","CompletedAt":"0 days,20 hours,31 minutes,5 seconds","DateTime":"7\/26\/2021 1:34:48 AM","VM_Name":"demo-stretto-b2"},{"Backup_Status":"Success","CompletedAt":"0 days,10 hours,56 minutes,43 seconds","DateTime":"7\/26\/2021 11:09:39 AM","VM_Name":"new-stretto"},{"Backup_Status":"Success","CompletedAt":"0 days,12 hours,7 minutes,27 seconds","DateTime":"7\/26\/2021 9:59:22 AM","VM_Name":"new-stretto-b2"},{"Backup_Status":"Success","CompletedAt":"0 days,6 hours,23 minutes,29 seconds","DateTime":"7\/26\/2021 3:44:05 PM","VM_Name":"prod-stretto-b1"},{"Backup_Status":"Success","CompletedAt":"0 days,6 hours,23 minutes,18 seconds","DateTime":"7\/26\/2021 3:44:45 PM","VM_Name":"prod-stretto-b2"}]},{"Metrics":{"MTTR":"<20Min","API_Availability":"100%","Average_Response_Time":"243 ms","Sync_Time":"26-Jul-2021 22:30:08"}}]
+[
+  {
+    "Datadog_Monitoring_VM": [
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "new-stretto.honeywell.com"
+      },
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "new-stretto-b2.honeywell.com"
+      },
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "demo-stretto-b1.honeywell.com"
+      },
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "demo-stretto-b2"
+      },
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "prod-stretto-b1.honeywell.com"
+      },
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "prod-stretto-b2.honeywell.com"
+      }
+    ]
+  },
+  {
+    "Datadog_Monitoring_Alerts": [
+      {
+        "Count": "0",
+        "Alert_Name": "Alert",
+        "Url": ""
+      },
+      {
+        "Count": "0",
+        "Alert_Name": "Warn",
+        "Url": ""
+      },
+      {
+        "Count": "0",
+        "Alert_Name": "No Data",
+        "Url": ""
+      }
+    ]
+  },
+  {
+    "CatchPoint_Monitoring": [
+      {
+        "API_Name": "Admin",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Api",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Login",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Sync",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "UEM",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      }
+    ]
+  },
+  {
+    "Azure_API": [
+      {
+        "API_Name": "Admin",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Api",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Login",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Sync",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "UEM",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      }
+    ]
+  },
+  {
+    "Azure_Backup": [
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,7 hours,15 minutes,23 seconds",
+        "DateTime": "7/27/2021 1:35:51 AM",
+        "VM_Name": "demo-stretto-b1"
+      },
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,7 hours,12 minutes,12 seconds",
+        "DateTime": "7/27/2021 1:39:31 AM",
+        "VM_Name": "demo-stretto-b2"
+      },
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,21 hours,42 minutes,31 seconds",
+        "DateTime": "7/26/2021 11:09:39 AM",
+        "VM_Name": "new-stretto"
+      },
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,22 hours,53 minutes,17 seconds",
+        "DateTime": "7/26/2021 9:59:22 AM",
+        "VM_Name": "new-stretto-b2"
+      },
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,17 hours,9 minutes,19 seconds",
+        "DateTime": "7/26/2021 3:44:05 PM",
+        "VM_Name": "prod-stretto-b1"
+      },
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,17 hours,9 minutes,8 seconds",
+        "DateTime": "7/26/2021 3:44:45 PM",
+        "VM_Name": "prod-stretto-b2"
+      }
+    ]
+  },
+  {
+    "Metrics": {
+      "MTTR": "<20Min",
+      "API_Availability": "100%",
+      "Average_Response_Time": "247 ms",
+      "Sync_Time": "27-Jul-2021 09:00:58"
+    }
+  }
+]
