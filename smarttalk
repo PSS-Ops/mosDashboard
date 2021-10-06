@@ -47,6 +47,40 @@
     ]
   },
   {
+    "CatchPoint_Monitoring": [
+      {
+        "API_Name": "Admin",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "99.306%"
+      },
+      {
+        "API_Name": "Api",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Login",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Sync",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "UEM",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      }
+    ]
+  },
+  {
     "Azure_API": [
       {
         "API_Name": "Admin",
@@ -56,11 +90,11 @@
       {
         "API_Name": "Api",
         "Availability_Prod": "100%",
-        "Availability_Demo": "100%"
+        "Availability_Demo": "98.89%"
       },
       {
         "API_Name": "Login",
-        "Availability_Prod": "82.35%",
+        "Availability_Prod": "80.00%",
         "Availability_Demo": "100%"
       },
       {
@@ -79,37 +113,37 @@
     "Azure_Backup": [
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,12 hours,46 minutes,18 seconds",
+        "CompletedAt": "0 days,15 hours,47 minutes,47 seconds",
         "DateTime": "10/6/2021 1:33:58 AM",
         "VM_Name": "demo-stretto-b1"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,12 hours,40 minutes,1 seconds",
+        "CompletedAt": "0 days,15 hours,41 minutes,30 seconds",
         "DateTime": "10/6/2021 1:40:43 AM",
         "VM_Name": "demo-stretto-b2"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "1 days,3 hours,3 minutes,56 seconds",
-        "DateTime": "10/5/2021 11:17:16 AM",
+        "CompletedAt": "0 days,6 hours,4 minutes,39 seconds",
+        "DateTime": "10/6/2021 11:18:01 AM",
         "VM_Name": "new-stretto"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,4 hours,16 minutes,38 seconds",
+        "CompletedAt": "0 days,7 hours,18 minutes,6 seconds",
         "DateTime": "10/6/2021 10:05:02 AM",
         "VM_Name": "new-stretto-b2"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,22 hours,36 minutes,1 seconds",
+        "CompletedAt": "1 days,1 hours,37 minutes,29 seconds",
         "DateTime": "10/5/2021 3:46:25 PM",
         "VM_Name": "prod-stretto-b1"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,22 hours,38 minutes,31 seconds",
+        "CompletedAt": "1 days,1 hours,39 minutes,36 seconds",
         "DateTime": "10/5/2021 3:44:46 PM",
         "VM_Name": "prod-stretto-b2"
       }
@@ -118,9 +152,9 @@
   {
     "Metrics": {
       "MTTR": "<20Min",
-      "API_Availability": "96.47%",
-      "Average_Response_Time": "1.00 sec",
-      "Sync_Time": "06-Oct-2021 15:06:22"
+      "API_Availability": "96.00%",
+      "Average_Response_Time": "1.10 sec",
+      "Sync_Time": "06-Oct-2021 18:16:27"
     }
   }
 ]
