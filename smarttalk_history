@@ -30,12 +30,12 @@
   {
     "Datadog_Monitoring_Alerts": [
       {
-        "Count": "9",
+        "Count": "0",
         "Alert_Name": "Alert",
-        "Url": "https://app.datadoghq.com/monitors/triggered"
+        "Url": ""
       },
       {
-        "Count": "2",
+        "Count": "1",
         "Alert_Name": "Warn",
         "Url": "https://app.datadoghq.com/monitors/triggered"
       },
@@ -69,13 +69,13 @@
       {
         "API_Name": "Sync",
         "Availability_Test": "100%",
-        "Availability_Prod": "86.310%",
+        "Availability_Prod": "100%",
         "Availability_Demo": "100%"
       },
       {
         "API_Name": "UEM",
         "Availability_Test": "100%",
-        "Availability_Prod": "98.214%",
+        "Availability_Prod": "100",
         "Availability_Demo": "100%"
       }
     ]
@@ -84,27 +84,27 @@
     "Azure_API_All": [
       {
         "API_Name": "Admin",
-        "Availability_Prod": "100%",
+        "Availability_Prod": "98.96%",
         "Availability_Demo": "100%"
       },
       {
         "API_Name": "Api",
-        "Availability_Prod": "100%",
+        "Availability_Prod": "99.17%",
         "Availability_Demo": "80.00%"
       },
       {
         "API_Name": "Login",
-        "Availability_Prod": "100%",
+        "Availability_Prod": "98.96%",
         "Availability_Demo": "80.00%"
       },
       {
         "API_Name": "Sync",
-        "Availability_Prod": "75.56%",
+        "Availability_Prod": "70.83%",
         "Availability_Demo": "100%"
       },
       {
         "API_Name": "UEM",
-        "Availability_Prod": "100%",
+        "Availability_Prod": "99.17%",
         "Availability_Demo": "100%"
       }
     ]
@@ -113,32 +113,32 @@
     "Azure_Backup": [
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,14 hours,8 minutes,2 seconds",
-        "DateTime": "11/22/2021 1:37:41 AM",
+        "CompletedAt": "0 days,12 hours,25 minutes,34 seconds",
+        "DateTime": "11/23/2021 1:41:09 AM",
         "VM_Name": "demo-stretto-b1"
       },
       {
-        "Backup_Status": "Failed",
-        "CompletedAt": "",
-        "DateTime": "",
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,12 hours,26 minutes,4 seconds",
+        "DateTime": "11/23/2021 1:41:06 AM",
         "VM_Name": "demo-stretto-b2"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,4 hours,10 minutes,45 seconds",
+        "CompletedAt": "1 days,2 hours,31 minutes,50 seconds",
         "DateTime": "11/22/2021 11:35:49 AM",
         "VM_Name": "new-stretto"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,5 hours,33 minutes,54 seconds",
-        "DateTime": "11/22/2021 10:13:07 AM",
+        "CompletedAt": "0 days,3 hours,59 minutes,52 seconds",
+        "DateTime": "11/23/2021 10:08:39 AM",
         "VM_Name": "new-stretto-b2"
       },
       {
-        "Backup_Status": "Failed",
-        "CompletedAt": "",
-        "DateTime": "",
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,21 hours,57 minutes,58 seconds",
+        "DateTime": "11/22/2021 4:11:19 PM",
         "VM_Name": "prod-stretto-b1"
       },
       {
@@ -152,9 +152,9 @@
   {
     "Metrics": {
       "MTTR": "<20Min",
-      "API_Availability": "95.11%",
-      "Average_Response_Time": "1.91 sec",
-      "Sync_Time": "22-Nov-2021 16:31:18"
+      "API_Availability": "93.42%",
+      "Average_Response_Time": "2.16 sec",
+      "Sync_Time": "23-Nov-2021 15:10:46"
     }
   },
   {
@@ -163,23 +163,23 @@
         "Last_24hrs": [
           {
             "API_Name": "Admin",
-            "Availability": "100%"
+            "Availability": "98.96%"
           },
           {
             "API_Name": "Api",
-            "Availability": "100%"
+            "Availability": "99.17%"
           },
           {
             "API_Name": "Login",
-            "Availability": "100%"
+            "Availability": "98.96%"
           },
           {
             "API_Name": "Sync",
-            "Availability": "72.78%"
+            "Availability": "79.17%"
           },
           {
             "API_Name": "UEM",
-            "Availability": "100%"
+            "Availability": "99.17%"
           }
         ]
       },
@@ -199,7 +199,7 @@
           },
           {
             "API_Name": "Sync",
-            "Availability": "45.56%"
+            "Availability": "100%"
           },
           {
             "API_Name": "UEM",
@@ -211,23 +211,23 @@
         "Last_7days": [
           {
             "API_Name": "Admin",
-            "Availability": "100%"
+            "Availability": "99.85%"
           },
           {
             "API_Name": "Api",
-            "Availability": "100%"
+            "Availability": "99.88%"
           },
           {
             "API_Name": "Login",
-            "Availability": "100%"
+            "Availability": "99.85%"
           },
           {
             "API_Name": "Sync",
-            "Availability": "96.15%"
+            "Availability": "93.33%"
           },
           {
             "API_Name": "UEM",
-            "Availability": "100%"
+            "Availability": "99.88%"
           }
         ]
       },
@@ -235,23 +235,23 @@
         "Last_30days": [
           {
             "API_Name": "Admin",
-            "Availability": "100%"
+            "Availability": "99.97%"
           },
           {
             "API_Name": "Api",
-            "Availability": "96.50%"
+            "Availability": "97.13%"
           },
           {
             "API_Name": "Login",
-            "Availability": "100%"
+            "Availability": "99.97%"
           },
           {
             "API_Name": "Sync",
-            "Availability": "99.09%"
+            "Availability": "98.44%"
           },
           {
             "API_Name": "UEM",
-            "Availability": "100%"
+            "Availability": "99.97%"
           }
         ]
       },
@@ -259,23 +259,23 @@
         "Last_60days": [
           {
             "API_Name": "Admin",
-            "Availability": "100%"
+            "Availability": "99.97%"
           },
           {
             "API_Name": "Api",
-            "Availability": "95.96%"
+            "Availability": "96.58%"
           },
           {
             "API_Name": "Login",
-            "Availability": "100%"
+            "Availability": "99.97%"
           },
           {
             "API_Name": "Sync",
-            "Availability": "99.12%"
+            "Availability": "98.49%"
           },
           {
             "API_Name": "UEM",
-            "Availability": "100%"
+            "Availability": "99.97%"
           }
         ]
       },
@@ -283,23 +283,23 @@
         "Last_90days": [
           {
             "API_Name": "Admin",
-            "Availability": "99.97%"
+            "Availability": "99.95%"
           },
           {
             "API_Name": "Api",
-            "Availability": "89.97%"
+            "Availability": "90.84%"
           },
           {
             "API_Name": "Login",
-            "Availability": "94.52%"
+            "Availability": "94.73%"
           },
           {
             "API_Name": "Sync",
-            "Availability": "99.69%"
+            "Availability": "99.48%"
           },
           {
             "API_Name": "UEM",
-            "Availability": "100%"
+            "Availability": "99.99%"
           }
         ]
       }
