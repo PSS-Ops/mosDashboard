@@ -47,20 +47,20 @@
     "Azure_Backup": [
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,9 hours,25 minutes,25 seconds",
+        "CompletedAt": "0 days,13 hours,37 minutes,10 seconds",
         "DateTime": "4/18/2022 4:36:50 AM",
         "VM_Name": "Pro-CAIDC-DB-01"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "1 days,0 hours,1 minutes,52 seconds",
-        "DateTime": "4/17/2022 2:00:52 PM",
+        "CompletedAt": "0 days,4 hours,4 minutes,31 seconds",
+        "DateTime": "4/18/2022 2:09:58 PM",
         "VM_Name": "Pro-CAIDC-DB-02"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,23 hours,53 minutes,11 seconds",
-        "DateTime": "4/17/2022 2:10:02 PM",
+        "CompletedAt": "0 days,4 hours,8 minutes,31 seconds",
+        "DateTime": "4/18/2022 2:06:25 PM",
         "VM_Name": "Pro-CAIDC-DB-03"
       }
     ]
@@ -172,7 +172,7 @@
         "Status": "Ready",
         "Version": "v1.16.15",
         "Roles": "agent",
-        "Age": "140d",
+        "Age": "141d",
         "Name": "aks-agentpool-10344397-19"
       },
       {
@@ -186,7 +186,7 @@
         "Status": "Ready",
         "Version": "v1.16.15",
         "Roles": "agent",
-        "Age": "140d",
+        "Age": "141d",
         "Name": "aks-agentpool-10344397-20"
       },
       {
@@ -200,28 +200,28 @@
         "Status": "Ready",
         "Version": "v1.16.15",
         "Roles": "agent",
-        "Age": "131d",
+        "Age": "132d",
         "Name": "aks-agentpool-10344397-22"
       },
       {
         "Status": "Ready",
         "Version": "v1.16.15",
         "Roles": "agent",
-        "Age": "131d",
+        "Age": "132d",
         "Name": "aks-agentpool-10344397-23"
       },
       {
         "Status": "Ready",
         "Version": "v1.16.15",
         "Roles": "agent",
-        "Age": "131d",
+        "Age": "132d",
         "Name": "aks-agentpool-10344397-24"
       },
       {
         "Status": "Ready",
         "Version": "v1.16.15",
         "Roles": "agent",
-        "Age": "131d",
+        "Age": "132d",
         "Name": "aks-agentpool-10344397-25"
       },
       {
@@ -295,7 +295,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d6h",
+        "Age": "3d10h",
         "Name": "elasticsearch-5846ddc68d-gkfkz"
       },
       {
@@ -320,6 +320,13 @@
         "Name": "fluent-bit-6vj5q"
       },
       {
+        "Status": "Evicted",
+        "Ready": "0/1",
+        "Restarts": "0",
+        "Age": "2m26s",
+        "Name": "fluent-bit-b7gph"
+      },
+      {
         "Status": "Running",
         "Ready": "1/1",
         "Restarts": "0",
@@ -337,14 +344,28 @@
         "Status": "Evicted",
         "Ready": "0/1",
         "Restarts": "0",
-        "Age": "5m51s",
-        "Name": "fluent-bit-cgzfw"
+        "Age": "2m26s",
+        "Name": "fluent-bit-d67sg"
+      },
+      {
+        "Status": "Evicted",
+        "Ready": "0/1",
+        "Restarts": "0",
+        "Age": "2m26s",
+        "Name": "fluent-bit-dl442"
+      },
+      {
+        "Status": "Evicted",
+        "Ready": "0/1",
+        "Restarts": "0",
+        "Age": "2m26s",
+        "Name": "fluent-bit-f294r"
       },
       {
         "Status": "Running",
         "Ready": "1/1",
         "Restarts": "0",
-        "Age": "3d2h",
+        "Age": "3d6h",
         "Name": "fluent-bit-fkcv6"
       },
       {
@@ -362,11 +383,11 @@
         "Name": "fluent-bit-g9h6f"
       },
       {
-        "Status": "Evicted",
-        "Ready": "0/1",
+        "Status": "Running",
+        "Ready": "1/1",
         "Restarts": "0",
-        "Age": "5m51s",
-        "Name": "fluent-bit-gwkl2"
+        "Age": "137m",
+        "Name": "fluent-bit-gl9pt"
       },
       {
         "Status": "Running",
@@ -400,8 +421,8 @@
         "Status": "Evicted",
         "Ready": "0/1",
         "Restarts": "0",
-        "Age": "5m51s",
-        "Name": "fluent-bit-lfx5r"
+        "Age": "2m26s",
+        "Name": "fluent-bit-lhxff"
       },
       {
         "Status": "Running",
@@ -411,31 +432,10 @@
         "Name": "fluent-bit-lkpfz"
       },
       {
-        "Status": "Evicted",
-        "Ready": "0/1",
-        "Restarts": "0",
-        "Age": "5m51s",
-        "Name": "fluent-bit-m79lw"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/1",
-        "Restarts": "0",
-        "Age": "5m51s",
-        "Name": "fluent-bit-m7pzf"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/1",
-        "Restarts": "0",
-        "Age": "5m51s",
-        "Name": "fluent-bit-mg254"
-      },
-      {
         "Status": "Running",
         "Ready": "1/1",
         "Restarts": "0",
-        "Age": "2d2h",
+        "Age": "2d6h",
         "Name": "fluent-bit-pk4r9"
       },
       {
@@ -444,13 +444,6 @@
         "Restarts": "0",
         "Age": "9d",
         "Name": "fluent-bit-pmf7l"
-      },
-      {
-        "Status": "Running",
-        "Ready": "1/1",
-        "Restarts": "0",
-        "Age": "5m51s",
-        "Name": "fluent-bit-qwtqh"
       },
       {
         "Status": "Running",
@@ -479,6 +472,13 @@
         "Restarts": "1",
         "Age": "9d",
         "Name": "fluent-bit-vrcdq"
+      },
+      {
+        "Status": "Evicted",
+        "Ready": "0/1",
+        "Restarts": "0",
+        "Age": "2m26s",
+        "Name": "fluent-bit-vz47m"
       },
       {
         "Status": "Running",
@@ -519,15 +519,15 @@
         "Status": "Running",
         "Ready": "2/2",
         "Restarts": "0",
-        "Age": "40h",
+        "Age": "44h",
         "Name": "fluentd-7769696f6b-d69zb"
       },
       {
         "Status": "Running",
         "Ready": "2/2",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "fluentd-7769696f6b-dffc9"
+        "Age": "178m",
+        "Name": "fluentd-7769696f6b-q8xjf"
       },
       {
         "Status": "Running",
@@ -547,8 +547,8 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "kibana-7ddc9557d7-wrwxf"
+        "Age": "178m",
+        "Name": "kibana-7ddc9557d7-pb2l2"
       },
       {
         "Status": "Running",
@@ -561,7 +561,7 @@
         "Status": "Running",
         "Ready": "2/2",
         "Restarts": "0",
-        "Age": "2d2h",
+        "Age": "2d6h",
         "Name": "redis-slave-0"
       },
       {
@@ -589,22 +589,8 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d2h",
+        "Age": "2d6h",
         "Name": "sps-caidc-ms-alertsmanagement-app-9fc9f45cc-8x5pn"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-alertsmanagement-app-9fc9f45cc-fd9cv"
-      },
-      {
-        "Status": "Terminating",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "2d9h",
-        "Name": "sps-caidc-ms-alertsmanagement-app-9fc9f45cc-hbgl4"
       },
       {
         "Status": "Running",
@@ -617,7 +603,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "4d11h",
+        "Age": "4d15h",
         "Name": "sps-caidc-ms-alertsmanagement-app-9fc9f45cc-lpf5r"
       },
       {
@@ -626,6 +612,13 @@
         "Restarts": "0",
         "Age": "9d",
         "Name": "sps-caidc-ms-alertsmanagement-app-9fc9f45cc-nbhqz"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "168m",
+        "Name": "sps-caidc-ms-alertsmanagement-app-9fc9f45cc-s6lrg"
       },
       {
         "Status": "Running",
@@ -645,78 +638,71 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-27wjx"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "4d2h",
+        "Age": "4d6h",
         "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-7js28"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-7q7gw"
+        "Age": "178m",
+        "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-9sgzn"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d4h",
+        "Age": "178m",
+        "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-dxj78"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "1",
+        "Age": "3d8h",
         "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-g2s2z"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d4h",
+        "Age": "3d8h",
         "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-pcqkw"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d4h",
+        "Age": "3d8h",
         "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-ppwv5"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "4d2h",
+        "Age": "4d6h",
         "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-qhntv"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "4d2h",
+        "Age": "4d6h",
         "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-rctgf"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d3h",
+        "Age": "3d8h",
         "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-slj26"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d4h",
+        "Age": "3d8h",
         "Name": "sps-caidc-ms-apigateway-app-575b9c8d9f-xw4wn"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-cmdmanagement-app-6d954f5d46-2gmdb"
       },
       {
         "Status": "Running",
@@ -729,14 +715,14 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d",
+        "Age": "2d4h",
         "Name": "sps-caidc-ms-cmdmanagement-app-6d954f5d46-f5mk8"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "4d1h",
+        "Age": "4d5h",
         "Name": "sps-caidc-ms-cmdmanagement-app-6d954f5d46-mtzb8"
       },
       {
@@ -750,7 +736,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "38h",
+        "Age": "42h",
         "Name": "sps-caidc-ms-cmdmanagement-app-6d954f5d46-qgqpp"
       },
       {
@@ -763,30 +749,37 @@
       {
         "Status": "Running",
         "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "178m",
+        "Name": "sps-caidc-ms-cmdmanagement-app-6d954f5d46-wwbdl"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
         "Restarts": "1",
-        "Age": "3d6h",
+        "Age": "3d10h",
         "Name": "sps-caidc-ms-commoneventlistener-annotations-app-5d9c4cfbc6dqtv"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "6",
-        "Age": "46d",
+        "Age": "47d",
         "Name": "sps-caidc-ms-commoneventlistener-annotations-app-5d9c4cfbchwb4q"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "1",
-        "Age": "42h",
+        "Age": "46h",
         "Name": "sps-caidc-ms-commoneventlistener-annotations-app-5d9c4cfbcz9vpx"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "1",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-commoneventlistener-devices-app-656cfddf97-4rw9h"
+        "Age": "177m",
+        "Name": "sps-caidc-ms-commoneventlistener-devices-app-656cfddf97-4nhq8"
       },
       {
         "Status": "Running",
@@ -796,25 +789,25 @@
         "Name": "sps-caidc-ms-commoneventlistener-devices-app-656cfddf97-9vrcr"
       },
       {
-        "Status": "Terminating",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "2d9h",
-        "Name": "sps-caidc-ms-commoneventlistener-devices-app-656cfddf97-d7zsg"
-      },
-      {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "1",
-        "Age": "28h",
+        "Age": "32h",
         "Name": "sps-caidc-ms-commoneventlistener-devices-app-656cfddf97-nwcsf"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "1",
-        "Age": "42h",
+        "Age": "46h",
         "Name": "sps-caidc-ms-commoneventlistener-devices-app-656cfddf97-rl99t"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "178m",
+        "Name": "sps-caidc-ms-commoneventlistener-events-app-57dd79dbb-8gh2p"
       },
       {
         "Status": "Running",
@@ -827,112 +820,112 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d15h",
+        "Age": "3d19h",
         "Name": "sps-caidc-ms-commoneventlistener-events-app-57dd79dbb-kz76d"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d9h",
+        "Age": "2d14h",
         "Name": "sps-caidc-ms-commoneventlistener-events-app-57dd79dbb-mwhkz"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-commoneventlistener-events-app-57dd79dbb-vtblz"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "3d7h",
+        "Age": "3d12h",
         "Name": "sps-caidc-ms-commoneventlistener-externalevents-app-6bd45c2k6ch"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "46d",
+        "Age": "47d",
         "Name": "sps-caidc-ms-commoneventlistener-externalevents-app-6bd45cjprt2"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d9h",
+        "Age": "2d14h",
         "Name": "sps-caidc-ms-commoneventlistener-externalevents-app-6bd45cr9j4w"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "40h",
+        "Age": "44h",
         "Name": "sps-caidc-ms-commoneventlistener-fileupload-app-69fd8d7c9-lh8c8"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d5h",
+        "Age": "3d9h",
         "Name": "sps-caidc-ms-commoneventlistener-firmware-app-7b585b67b9-8chl2"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "40h",
+        "Age": "44h",
         "Name": "sps-caidc-ms-commoneventlistener-firmware-app-7b585b67b9-ls2n2"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "46d",
+        "Age": "47d",
         "Name": "sps-caidc-ms-commoneventlistener-firmware-app-7b585b67b9-mzfzd"
+      },
+      {
+        "Status": "Evicted",
+        "Ready": "0/3",
+        "Restarts": "0",
+        "Age": "3h40m",
+        "Name": "sps-caidc-ms-commoneventlistener-telemetry-app-769d5fb6d8-b97kf"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "1",
-        "Age": "2d19h",
+        "Age": "2d23h",
         "Name": "sps-caidc-ms-commoneventlistener-telemetry-app-769d5fb6d8-hq2fb"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
-        "Restarts": "1",
-        "Age": "8h",
+        "Restarts": "2",
+        "Age": "12h",
         "Name": "sps-caidc-ms-commoneventlistener-telemetry-app-769d5fb6d8-hslhq"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "1",
-        "Age": "2d9h",
+        "Age": "2d14h",
         "Name": "sps-caidc-ms-commoneventlistener-telemetry-app-769d5fb6d8-lc5cn"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
-        "Restarts": "8",
-        "Age": "6d10h",
+        "Restarts": "9",
+        "Age": "6d14h",
         "Name": "sps-caidc-ms-commoneventlistener-telemetry-app-769d5fb6d8-mfwpn"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
-        "Restarts": "10",
-        "Age": "6d19h",
+        "Restarts": "11",
+        "Age": "7d",
         "Name": "sps-caidc-ms-commoneventlistener-telemetry-app-769d5fb6d8-pbk74"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
-        "Restarts": "7",
-        "Age": "6d20h",
+        "Restarts": "8",
+        "Age": "7d",
         "Name": "sps-caidc-ms-commoneventlistener-telemetry-app-769d5fb6d8-wk2v9"
       },
       {
@@ -945,113 +938,113 @@
       {
         "Status": "Running",
         "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "38h",
+        "Restarts": "1",
+        "Age": "42h",
         "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-2rcn2"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-7vbv5"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "8h",
+        "Age": "12h",
         "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-8fnrz"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-dfz2l"
+        "Age": "177m",
+        "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-kq4lr"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "177m",
+        "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-l2bwz"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "178m",
+        "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-l6glb"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "1",
-        "Age": "2d6h",
-        "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-jzhvp"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-qq867"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "2d19h",
+        "Age": "2d23h",
         "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-s2nmc"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d6h",
+        "Age": "2d10h",
         "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-tf5r9"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d6h",
+        "Age": "2d10h",
         "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-tq9kp"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d6h",
+        "Age": "2d10h",
         "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-vmr5q"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d15h",
+        "Age": "178m",
+        "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-wh666"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "3d19h",
         "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-wn7w6"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d6h",
+        "Age": "2d10h",
         "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-xz6j4"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "18h",
+        "Age": "22h",
         "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-z8xmn"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d6h",
+        "Age": "2d10h",
         "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-zkrgx"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "18h",
+        "Age": "22h",
         "Name": "sps-caidc-ms-complexeventprocessor-app-785949d987-zmsg4"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d6h",
+        "Age": "3d10h",
         "Name": "sps-caidc-ms-dashboardservice-app-559899497b-kwmmp"
       },
       {
@@ -1065,7 +1058,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d4h",
+        "Age": "3d9h",
         "Name": "sps-caidc-ms-dashboardservice-app-559899497b-z9dcx"
       },
       {
@@ -1086,13 +1079,6 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-5ddfd694c7tchg"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
         "Age": "47d",
         "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-5ddfd694c9b72x"
       },
@@ -1100,8 +1086,8 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-5ddfd694cf5554"
+        "Age": "178m",
+        "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-5ddfd694cfxfbg"
       },
       {
         "Status": "Running",
@@ -1121,14 +1107,21 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d9h",
+        "Age": "178m",
+        "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-5ddfd694cttddl"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "2d14h",
         "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-5ddfd694cxtvpm"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "46d",
+        "Age": "47d",
         "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-telemetryfzdmn"
       },
       {
@@ -1142,36 +1135,43 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d15h",
+        "Age": "3d19h",
         "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-telemetrymr596"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-telemetryt296x"
+        "Age": "178m",
+        "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-telemetrypgvhh"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "38h",
+        "Age": "42h",
         "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-telemetryxsrw8"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "46d",
+        "Age": "47d",
         "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-telemetryzh4qd"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "4d20h",
+        "Age": "5d1h",
         "Name": "sps-caidc-ms-devicemanagement-app-75c9967c69-6xnwn"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "178m",
+        "Name": "sps-caidc-ms-devicemanagement-app-75c9967c69-lrqxf"
       },
       {
         "Status": "Running",
@@ -1184,15 +1184,8 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "18d",
+        "Age": "19d",
         "Name": "sps-caidc-ms-devicemanagement-app-75c9967c69-nbk6k"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-devicemanagement-app-75c9967c69-pkhl6"
       },
       {
         "Status": "Running",
@@ -1205,7 +1198,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d15h",
+        "Age": "2d19h",
         "Name": "sps-caidc-ms-devicemanagement-app-listener-64c86ffbf-mwxgv"
       },
       {
@@ -1289,7 +1282,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "40h",
+        "Age": "44h",
         "Name": "sps-caidc-ms-deviceonboarding-app-6b56655ffc-wj75z"
       },
       {
@@ -1310,14 +1303,14 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "46d",
+        "Age": "47d",
         "Name": "sps-caidc-ms-entitlementmanagement-app-7db4dbf9cf-74wl7"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "46d",
+        "Age": "47d",
         "Name": "sps-caidc-ms-entitlementmanagement-app-7db4dbf9cf-smdvc"
       },
       {
@@ -1331,7 +1324,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d7h",
+        "Age": "3d12h",
         "Name": "sps-caidc-ms-inventoryservice-app-7475bb4c4-ntmql"
       },
       {
@@ -1373,7 +1366,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d7h",
+        "Age": "3d12h",
         "Name": "sps-caidc-ms-licensevalidator-app-557f8db584-4mtwb"
       },
       {
@@ -1387,35 +1380,35 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "130d",
+        "Age": "131d",
         "Name": "sps-caidc-ms-licensevalidator-app-557f8db584-77tv2"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d19h",
+        "Age": "2d23h",
         "Name": "sps-caidc-ms-locationservice-app-7b6dc48578-5fch6"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d22h",
+        "Age": "3d2h",
         "Name": "sps-caidc-ms-locationservice-app-7b6dc48578-dxtlg"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d22h",
+        "Age": "3d2h",
         "Name": "sps-caidc-ms-locationservice-app-7b6dc48578-hj8hp"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "43h",
+        "Age": "47h",
         "Name": "sps-caidc-ms-loggingmanagement-app-657654c4d5-8s69c"
       },
       {
@@ -1436,7 +1429,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d5h",
+        "Age": "3d9h",
         "Name": "sps-caidc-ms-maintenance-app-76d4c54d94-2qddv"
       },
       {
@@ -1457,28 +1450,28 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d22h",
+        "Age": "3d2h",
         "Name": "sps-caidc-ms-ml-indoorlocationservice-app-85cbc86656-dgwvq"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d19h",
+        "Age": "2d23h",
         "Name": "sps-caidc-ms-ml-indoorlocationservice-app-85cbc86656-fd4pb"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "130d",
+        "Age": "131d",
         "Name": "sps-caidc-ms-ml-indoorlocationservice-app-85cbc86656-vfp52"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "40h",
+        "Age": "44h",
         "Name": "sps-caidc-ms-mlservice-app-77f75b7558-ccf5b"
       },
       {
@@ -1492,7 +1485,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "23d",
+        "Age": "24d",
         "Name": "sps-caidc-ms-mlservice-app-77f75b7558-hjfzz"
       },
       {
@@ -1534,14 +1527,14 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d5h",
+        "Age": "3d9h",
         "Name": "sps-caidc-ms-objectstoragemanagement-app-5f8cd9c9bf-zxsn7"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "46d",
+        "Age": "47d",
         "Name": "sps-caidc-ms-reportmanagement-app-664c4479f6-bsz5b"
       },
       {
@@ -1555,7 +1548,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d4h",
+        "Age": "2d8h",
         "Name": "sps-caidc-ms-reportmanagement-app-664c4479f6-pg2mb"
       },
       {
@@ -1569,57 +1562,50 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "130d",
+        "Age": "131d",
         "Name": "sps-caidc-ms-safebilling-app-6654f74c98-dbhbm"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d19h",
+        "Age": "2d23h",
         "Name": "sps-caidc-ms-safebilling-app-6654f74c98-vv2f5"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "130d",
+        "Age": "131d",
         "Name": "sps-caidc-ms-safebilling-app-6654f74c98-x8hrz"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-sentienceconnector-app-7f47ff7b6b-7x5x5"
+        "Age": "178m",
+        "Name": "sps-caidc-ms-sentienceconnector-app-7f47ff7b6b-dnbh4"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "4d2h",
+        "Age": "4d6h",
         "Name": "sps-caidc-ms-sentienceconnector-app-7f47ff7b6b-flk7x"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "4d2h",
+        "Age": "4d6h",
         "Name": "sps-caidc-ms-sentienceconnector-app-7f47ff7b6b-kp9vp"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "4d2h",
+        "Age": "4d6h",
         "Name": "sps-caidc-ms-sentienceconnector-app-7f47ff7b6b-zdxfl"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-settingsmanagement-app-66f95b586d-4k2lw"
       },
       {
         "Status": "Running",
@@ -1627,13 +1613,6 @@
         "Restarts": "1",
         "Age": "21d",
         "Name": "sps-caidc-ms-settingsmanagement-app-66f95b586d-clvt9"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h28m",
-        "Name": "sps-caidc-ms-settingsmanagement-app-66f95b586d-h5bd4"
       },
       {
         "Status": "Running",
@@ -1646,8 +1625,15 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "5d6h",
+        "Age": "5d10h",
         "Name": "sps-caidc-ms-settingsmanagement-app-66f95b586d-p9g6k"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "177m",
+        "Name": "sps-caidc-ms-settingsmanagement-app-66f95b586d-zdwk7"
       },
       {
         "Status": "Running",
@@ -1660,29 +1646,29 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-swfwmanagement-app-dd7c5bf9d-44c9d"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "6d2h",
+        "Age": "6d6h",
         "Name": "sps-caidc-ms-swfwmanagement-app-dd7c5bf9d-chxb8"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "7d15h",
+        "Age": "7d19h",
         "Name": "sps-caidc-ms-swfwmanagement-app-dd7c5bf9d-g862v"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "7d5h",
+        "Age": "7d10h",
         "Name": "sps-caidc-ms-swfwmanagement-app-dd7c5bf9d-kvpmf"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "178m",
+        "Name": "sps-caidc-ms-swfwmanagement-app-dd7c5bf9d-lbbmw"
       },
       {
         "Status": "Running",
@@ -1702,7 +1688,7 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "40h",
+        "Age": "44h",
         "Name": "sps-caidc-ms-taggingmanagement-app-56f6777457-bh8zw"
       },
       {
@@ -1716,134 +1702,8 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "11d",
+        "Age": "12d",
         "Name": "sps-caidc-ms-taggingmanagement-app-56f6777457-q7pw6"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "4h35m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-2rbbf"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "4h36m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-4zb7z"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-5k4n2"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-6trqc"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-88vpp"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-8c5jt"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "5h",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-8dfnk"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h20m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-dlpbp"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h21m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-fcvk6"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-fmhx7"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "5h",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-fr7rr"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-ftwfx"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-h226k"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "4h34m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-h88cw"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-h9dcb"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-h9fzm"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "5h",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-jg24m"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-klhxj"
       },
       {
         "Status": "Running",
@@ -1853,143 +1713,10 @@
         "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-lltkn"
       },
       {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-lmvgq"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-lt9w7"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "5h",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-mv48p"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-mvxpg"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "5h9m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-mz65l"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-nb8xj"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-nnm64"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "5h",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-pflch"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "5h",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-qcvqz"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h18m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-qkw45"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-qwc6b"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "5h",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-r2qgp"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "4h48m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-rlvrb"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-s9t62"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-skxzz"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-tf6d8"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-trdqr"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-v95pl"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h19m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-vvdmd"
-      },
-      {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "3d8h",
+        "Age": "3d12h",
         "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-vvfcx"
       },
       {
@@ -2000,115 +1727,94 @@
         "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-vwwpf"
       },
       {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-xw6hs"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "3h12m",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-zbthl"
-      },
-      {
-        "Status": "Evicted",
-        "Ready": "0/3",
-        "Restarts": "0",
-        "Age": "5h",
-        "Name": "sps-caidc-ms-tenantmanagement-app-84bd796664-zpgtp"
-      },
-      {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d21h",
+        "Age": "3d2h",
         "Name": "sps-caidc-ms-usermanagement-app-687887885c-2ll58"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-usermanagement-app-687887885c-7t2k4"
+        "Age": "177m",
+        "Name": "sps-caidc-ms-usermanagement-app-687887885c-4nm5x"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d21h",
+        "Age": "3d1h",
         "Name": "sps-caidc-ms-usermanagement-app-687887885c-c9dtt"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d21h",
+        "Age": "3d1h",
         "Name": "sps-caidc-ms-usermanagement-app-687887885c-cj5sj"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-usermanagement-app-687887885c-gk2ls"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "2d21h",
+        "Age": "3d2h",
         "Name": "sps-caidc-ms-usermanagement-app-687887885c-j6v8z"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8h",
-        "Name": "sps-caidc-ms-usermanagement-app-687887885c-n2xq6"
-      },
-      {
-        "Status": "Running",
-        "Ready": "3/3",
-        "Restarts": "0",
-        "Age": "2d21h",
+        "Age": "3d1h",
         "Name": "sps-caidc-ms-usermanagement-app-687887885c-p6tqf"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d21h",
+        "Age": "3d2h",
         "Name": "sps-caidc-ms-usermanagement-app-687887885c-pg7wf"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d22h",
+        "Age": "3d2h",
         "Name": "sps-caidc-ms-usermanagement-app-687887885c-pk2dj"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d21h",
+        "Age": "3d1h",
         "Name": "sps-caidc-ms-usermanagement-app-687887885c-pqjgg"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d21h",
+        "Age": "178m",
+        "Name": "sps-caidc-ms-usermanagement-app-687887885c-rbj95"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "177m",
+        "Name": "sps-caidc-ms-usermanagement-app-687887885c-wfs8b"
+      },
+      {
+        "Status": "Running",
+        "Ready": "3/3",
+        "Restarts": "0",
+        "Age": "3d2h",
         "Name": "sps-caidc-ms-usermanagement-app-687887885c-xcbgm"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "2d21h",
+        "Age": "3d1h",
         "Name": "sps-caidc-ms-usermanagement-app-687887885c-xfbtc"
       },
       {
@@ -2143,21 +1849,21 @@
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "8d",
+        "Age": "9d",
         "Name": "sps-caidc-ms-weblicensing-app-769567f74f-hkbh7"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "84d",
+        "Age": "85d",
         "Name": "sps-caidc-ms-weblicensing-app-769567f74f-xbsnm"
       },
       {
         "Status": "Running",
         "Ready": "3/3",
         "Restarts": "0",
-        "Age": "84d",
+        "Age": "85d",
         "Name": "sps-caidc-ms-webremotecontrol-app-d97bcf9c9-7zghg"
       },
       {
@@ -2182,7 +1888,7 @@
         "MinPods": "7",
         "MaxPods": "10",
         "Reference": "Deployment/sps-caidc-ms-alertsmanagement-app",
-        "Targets": "71%/80%",
+        "Targets": "72%/80%",
         "Replicas": "7",
         "Age": "2y28d",
         "Name": "sps-caidc-ms-alertsmanagement-app"
@@ -2191,7 +1897,7 @@
         "MinPods": "1",
         "MaxPods": "16",
         "Reference": "Deployment/sps-caidc-ms-alertsmanagement-app-bj",
-        "Targets": "74%/80%",
+        "Targets": "78%/80%",
         "Replicas": "2",
         "Age": "234d",
         "Name": "sps-caidc-ms-alertsmanagement-app-bj"
@@ -2200,7 +1906,7 @@
         "MinPods": "10",
         "MaxPods": "20",
         "Reference": "Deployment/sps-caidc-ms-apigateway-app",
-        "Targets": "49%/80%,15%/70%",
+        "Targets": "48%/80%,5%/70%",
         "Replicas": "10",
         "Age": "3y17d",
         "Name": "sps-caidc-ms-apigateway-app"
@@ -2209,7 +1915,7 @@
         "MinPods": "7",
         "MaxPods": "50",
         "Reference": "Deployment/sps-caidc-ms-cmdmanagement-app",
-        "Targets": "3%/70%",
+        "Targets": "2%/70%",
         "Replicas": "7",
         "Age": "2y245d",
         "Name": "sps-caidc-ms-cmdmanagement-app"
@@ -2218,7 +1924,7 @@
         "MinPods": "3",
         "MaxPods": "16",
         "Reference": "Deployment/sps-caidc-ms-commoneventlistener-annotations-app",
-        "Targets": "6%/80%",
+        "Targets": "4%/80%",
         "Replicas": "3",
         "Age": "486d",
         "Name": "sps-caidc-ms-commoneventlistener-annotations-app"
@@ -2227,7 +1933,7 @@
         "MinPods": "4",
         "MaxPods": "16",
         "Reference": "Deployment/sps-caidc-ms-commoneventlistener-devices-app",
-        "Targets": "65%/80%,31%/80%",
+        "Targets": "66%/80%,49%/80%",
         "Replicas": "4",
         "Age": "3y13d",
         "Name": "sps-caidc-ms-commoneventlistener-devices-app"
@@ -2236,7 +1942,7 @@
         "MinPods": "4",
         "MaxPods": "16",
         "Reference": "Deployment/sps-caidc-ms-commoneventlistener-events-app",
-        "Targets": "61%/80%,10%/80%",
+        "Targets": "63%/80%,15%/80%",
         "Replicas": "4",
         "Age": "3y13d",
         "Name": "sps-caidc-ms-commoneventlistener-events-app"
@@ -2263,7 +1969,7 @@
         "MinPods": "6",
         "MaxPods": "16",
         "Reference": "Deployment/sps-caidc-ms-commoneventlistener-telemetry-app",
-        "Targets": "72%/80%,76%/80%",
+        "Targets": "74%/80%,75%/80%",
         "Replicas": "6",
         "Age": "3y13d",
         "Name": "sps-caidc-ms-commoneventlistener-telemetry-app"
@@ -2272,7 +1978,7 @@
         "MinPods": "16",
         "MaxPods": "16",
         "Reference": "Deployment/sps-caidc-ms-complexeventprocessor-app",
-        "Targets": "51%/70%",
+        "Targets": "43%/70%",
         "Replicas": "16",
         "Age": "318d",
         "Name": "sps-caidc-ms-complexeventprocessor-app"
@@ -2281,7 +1987,7 @@
         "MinPods": "3",
         "MaxPods": "16",
         "Reference": "Deployment/sps-caidc-ms-dashboardservice-app",
-        "Targets": "4%/80%",
+        "Targets": "2%/80%",
         "Replicas": "3",
         "Age": "3y17d",
         "Name": "sps-caidc-ms-dashboardservice-app"
@@ -2290,7 +1996,7 @@
         "MinPods": "8",
         "MaxPods": "16",
         "Reference": "Deployment/sps-caidc-ms-dashboardservice-app-kafka-listener",
-        "Targets": "46%/80%,9%/80%",
+        "Targets": "46%/80%,10%/80%",
         "Replicas": "8",
         "Age": "2y148d",
         "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener"
@@ -2299,7 +2005,7 @@
         "MinPods": "6",
         "MaxPods": "16",
         "Reference": "Deployment/sps-caidc-ms-dashboardservice-app-kafka-listener-telemetry",
-        "Targets": "49%/80%,41%/80%",
+        "Targets": "49%/80%,35%/80%",
         "Replicas": "6",
         "Age": "2y147d",
         "Name": "sps-caidc-ms-dashboardservice-app-kafka-listener-telemetry"
@@ -2308,7 +2014,7 @@
         "MinPods": "4",
         "MaxPods": "10",
         "Reference": "Deployment/sps-caidc-ms-devicemanagement-app",
-        "Targets": "69%/80%,9%/70%",
+        "Targets": "68%/80%,9%/70%",
         "Replicas": "4",
         "Age": "3y17d",
         "Name": "sps-caidc-ms-devicemanagement-app"
@@ -2317,7 +2023,7 @@
         "MinPods": "3",
         "MaxPods": "10",
         "Reference": "Deployment/sps-caidc-ms-devicemanagement-app-listener",
-        "Targets": "13%/70%",
+        "Targets": "14%/70%",
         "Replicas": "3",
         "Age": "486d",
         "Name": "sps-caidc-ms-devicemanagement-app-listener"
@@ -2335,7 +2041,7 @@
         "MinPods": "3",
         "MaxPods": "10",
         "Reference": "Deployment/sps-caidc-ms-devicemanagement-app-listener-newconnection",
-        "Targets": "12%/70%",
+        "Targets": "13%/70%",
         "Replicas": "3",
         "Age": "486d",
         "Name": "sps-caidc-ms-devicemanagement-app-listener-newconnection"
@@ -2344,7 +2050,7 @@
         "MinPods": "3",
         "MaxPods": "10",
         "Reference": "Deployment/sps-caidc-ms-devicemanagement-cel-app",
-        "Targets": "10%/70%",
+        "Targets": "11%/70%",
         "Replicas": "3",
         "Age": "533d",
         "Name": "sps-caidc-ms-devicemanagement-cel-app"
@@ -2353,7 +2059,7 @@
         "MinPods": "3",
         "MaxPods": "10",
         "Reference": "Deployment/sps-caidc-ms-deviceonboarding-app",
-        "Targets": "3%/70%",
+        "Targets": "4%/70%",
         "Replicas": "3",
         "Age": "3y17d",
         "Name": "sps-caidc-ms-deviceonboarding-app"
@@ -2398,7 +2104,7 @@
         "MinPods": "3",
         "MaxPods": "5",
         "Reference": "Deployment/sps-caidc-ms-licensevalidator-app",
-        "Targets": "2%/70%",
+        "Targets": "1%/70%",
         "Replicas": "3",
         "Age": "333d",
         "Name": "sps-caidc-ms-licensevalidator-app"
@@ -2416,7 +2122,7 @@
         "MinPods": "3",
         "MaxPods": "16",
         "Reference": "Deployment/sps-caidc-ms-loggingmanagement-app",
-        "Targets": "3%/70%",
+        "Targets": "4%/70%",
         "Replicas": "3",
         "Age": "661d",
         "Name": "sps-caidc-ms-loggingmanagement-app"
@@ -2425,7 +2131,7 @@
         "MinPods": "3",
         "MaxPods": "8",
         "Reference": "Deployment/sps-caidc-ms-ml-indoorlocationservice-app",
-        "Targets": "52%/70%",
+        "Targets": "50%/70%",
         "Replicas": "3",
         "Age": "2y249d",
         "Name": "sps-caidc-ms-ml-indoorlocationservice-app"
@@ -2443,7 +2149,7 @@
         "MinPods": "3",
         "MaxPods": "5",
         "Reference": "Deployment/sps-caidc-ms-notificationsmanagement-app",
-        "Targets": "5%/70%",
+        "Targets": "3%/70%",
         "Replicas": "3",
         "Age": "2y188d",
         "Name": "sps-caidc-ms-notificationsmanagement-app"
@@ -2452,7 +2158,7 @@
         "MinPods": "3",
         "MaxPods": "5",
         "Reference": "Deployment/sps-caidc-ms-objectstoragemanagement-app",
-        "Targets": "3%/70%",
+        "Targets": "4%/70%",
         "Replicas": "3",
         "Age": "2y78d",
         "Name": "sps-caidc-ms-objectstoragemanagement-app"
@@ -2479,7 +2185,7 @@
         "MinPods": "4",
         "MaxPods": "10",
         "Reference": "Deployment/sps-caidc-ms-sentienceconnector-app",
-        "Targets": "56%/80%,20%/80%",
+        "Targets": "56%/80%,21%/80%",
         "Replicas": "4",
         "Age": "3y16d",
         "Name": "sps-caidc-ms-sentienceconnector-app"
@@ -2488,7 +2194,7 @@
         "MinPods": "4",
         "MaxPods": "10",
         "Reference": "Deployment/sps-caidc-ms-settingsmanagement-app",
-        "Targets": "4%/70%",
+        "Targets": "3%/70%",
         "Replicas": "4",
         "Age": "2y28d",
         "Name": "sps-caidc-ms-settingsmanagement-app"
@@ -2506,7 +2212,7 @@
         "MinPods": "3",
         "MaxPods": "10",
         "Reference": "Deployment/sps-caidc-ms-taggingmanagement-app",
-        "Targets": "3%/70%",
+        "Targets": "2%/70%",
         "Replicas": "3",
         "Age": "2y28d",
         "Name": "sps-caidc-ms-taggingmanagement-app"
@@ -2515,7 +2221,7 @@
         "MinPods": "3",
         "MaxPods": "5",
         "Reference": "Deployment/sps-caidc-ms-tenantmanagement-app",
-        "Targets": "4%/70%",
+        "Targets": "5%/70%",
         "Replicas": "3",
         "Age": "697d",
         "Name": "sps-caidc-ms-tenantmanagement-app"
@@ -2542,7 +2248,7 @@
         "MinPods": "3",
         "MaxPods": "5",
         "Reference": "Deployment/sps-caidc-ms-weblicensing-app",
-        "Targets": "40%/80%,2%/80%",
+        "Targets": "40%/80%,1%/80%",
         "Replicas": "3",
         "Age": "398d",
         "Name": "sps-caidc-ms-weblicensing-app"
@@ -2551,7 +2257,7 @@
         "MinPods": "3",
         "MaxPods": "5",
         "Reference": "Deployment/sps-caidc-ms-webremotecontrol-app",
-        "Targets": "<unknown>/80%,2%/70%",
+        "Targets": "<unknown>/80%,3%/70%",
         "Replicas": "3",
         "Age": "2y233d",
         "Name": "sps-caidc-ms-webremotecontrol-app"
@@ -2562,198 +2268,198 @@
     "Nodes_CPU_Memory": [
       {
         "memory": "52%",
-        "cpu": "24%",
-        "cpu_cores": "936m",
-        "memory_bytes": "6968Mi",
+        "cpu": "100%",
+        "cpu_cores": "3891m",
+        "memory_bytes": "6958Mi",
         "Name": "aks-agentpool-10344397-0"
       },
       {
         "memory": "51%",
-        "cpu": "67%",
-        "cpu_cores": "2598m",
-        "memory_bytes": "6794Mi",
+        "cpu": "63%",
+        "cpu_cores": "2461m",
+        "memory_bytes": "6822Mi",
         "Name": "aks-agentpool-10344397-1"
       },
       {
-        "memory": "42%",
-        "cpu": "32%",
-        "cpu_cores": "1267m",
-        "memory_bytes": "5701Mi",
+        "memory": "41%",
+        "cpu": "60%",
+        "cpu_cores": "2352m",
+        "memory_bytes": "5456Mi",
         "Name": "aks-agentpool-10344397-10"
       },
       {
         "memory": "31%",
-        "cpu": "29%",
-        "cpu_cores": "1149m",
-        "memory_bytes": "4191Mi",
+        "cpu": "57%",
+        "cpu_cores": "2213m",
+        "memory_bytes": "4214Mi",
         "Name": "aks-agentpool-10344397-11"
       },
       {
         "memory": "35%",
-        "cpu": "4%",
-        "cpu_cores": "168m",
-        "memory_bytes": "4690Mi",
+        "cpu": "62%",
+        "cpu_cores": "2411m",
+        "memory_bytes": "4761Mi",
         "Name": "aks-agentpool-10344397-12"
       },
       {
-        "memory": "32%",
-        "cpu": "4%",
-        "cpu_cores": "187m",
-        "memory_bytes": "4293Mi",
+        "memory": "33%",
+        "cpu": "50%",
+        "cpu_cores": "1959m",
+        "memory_bytes": "4382Mi",
         "Name": "aks-agentpool-10344397-13"
       },
       {
-        "memory": "42%",
-        "cpu": "12%",
-        "cpu_cores": "490m",
-        "memory_bytes": "5696Mi",
+        "memory": "43%",
+        "cpu": "14%",
+        "cpu_cores": "554m",
+        "memory_bytes": "5757Mi",
         "Name": "aks-agentpool-10344397-14"
       },
       {
-        "memory": "96%",
-        "cpu": "56%",
-        "cpu_cores": "2186m",
-        "memory_bytes": "12763Mi",
+        "memory": "100%",
+        "cpu": "20%",
+        "cpu_cores": "808m",
+        "memory_bytes": "13394Mi",
         "Name": "aks-agentpool-10344397-15"
       },
       {
-        "memory": "57%",
-        "cpu": "71%",
-        "cpu_cores": "2755m",
-        "memory_bytes": "7608Mi",
+        "memory": "56%",
+        "cpu": "59%",
+        "cpu_cores": "2299m",
+        "memory_bytes": "7490Mi",
         "Name": "aks-agentpool-10344397-16"
       },
       {
-        "memory": "58%",
-        "cpu": "58%",
-        "cpu_cores": "2274m",
-        "memory_bytes": "7736Mi",
+        "memory": "50%",
+        "cpu": "76%",
+        "cpu_cores": "2957m",
+        "memory_bytes": "6725Mi",
         "Name": "aks-agentpool-10344397-17"
       },
       {
         "memory": "62%",
-        "cpu": "22%",
-        "cpu_cores": "866m",
-        "memory_bytes": "8320Mi",
+        "cpu": "23%",
+        "cpu_cores": "892m",
+        "memory_bytes": "8354Mi",
         "Name": "aks-agentpool-10344397-18"
       },
       {
-        "memory": "71%",
-        "cpu": "34%",
-        "cpu_cores": "1318m",
-        "memory_bytes": "9527Mi",
+        "memory": "70%",
+        "cpu": "26%",
+        "cpu_cores": "1031m",
+        "memory_bytes": "9425Mi",
         "Name": "aks-agentpool-10344397-19"
       },
       {
         "memory": "31%",
-        "cpu": "112%",
-        "cpu_cores": "4326m",
-        "memory_bytes": "4150Mi",
+        "cpu": "76%",
+        "cpu_cores": "2952m",
+        "memory_bytes": "4197Mi",
         "Name": "aks-agentpool-10344397-2"
       },
       {
-        "memory": "74%",
-        "cpu": "45%",
-        "cpu_cores": "1757m",
-        "memory_bytes": "9909Mi",
+        "memory": "73%",
+        "cpu": "56%",
+        "cpu_cores": "2165m",
+        "memory_bytes": "9784Mi",
         "Name": "aks-agentpool-10344397-20"
       },
       {
-        "memory": "71%",
-        "cpu": "41%",
-        "cpu_cores": "1607m",
-        "memory_bytes": "9500Mi",
+        "memory": "72%",
+        "cpu": "44%",
+        "cpu_cores": "1713m",
+        "memory_bytes": "9571Mi",
         "Name": "aks-agentpool-10344397-21"
       },
       {
-        "memory": "69%",
-        "cpu": "43%",
-        "cpu_cores": "1661m",
-        "memory_bytes": "9243Mi",
+        "memory": "70%",
+        "cpu": "36%",
+        "cpu_cores": "1428m",
+        "memory_bytes": "9317Mi",
         "Name": "aks-agentpool-10344397-22"
       },
       {
-        "memory": "74%",
-        "cpu": "70%",
-        "cpu_cores": "2711m",
-        "memory_bytes": "9922Mi",
+        "memory": "75%",
+        "cpu": "77%",
+        "cpu_cores": "2974m",
+        "memory_bytes": "9969Mi",
         "Name": "aks-agentpool-10344397-23"
       },
       {
-        "memory": "69%",
+        "memory": "72%",
         "cpu": "53%",
-        "cpu_cores": "2067m",
-        "memory_bytes": "9169Mi",
+        "cpu_cores": "2078m",
+        "memory_bytes": "9566Mi",
         "Name": "aks-agentpool-10344397-24"
       },
       {
-        "memory": "73%",
-        "cpu": "35%",
-        "cpu_cores": "1387m",
-        "memory_bytes": "9715Mi",
+        "memory": "74%",
+        "cpu": "44%",
+        "cpu_cores": "1709m",
+        "memory_bytes": "9861Mi",
         "Name": "aks-agentpool-10344397-25"
       },
       {
         "memory": "68%",
-        "cpu": "26%",
-        "cpu_cores": "1016m",
-        "memory_bytes": "9141Mi",
+        "cpu": "24%",
+        "cpu_cores": "940m",
+        "memory_bytes": "9062Mi",
         "Name": "aks-agentpool-10344397-26"
       },
       {
-        "memory": "70%",
-        "cpu": "91%",
-        "cpu_cores": "3529m",
-        "memory_bytes": "9300Mi",
+        "memory": "69%",
+        "cpu": "77%",
+        "cpu_cores": "2989m",
+        "memory_bytes": "9210Mi",
         "Name": "aks-agentpool-10344397-27"
       },
       {
-        "memory": "65%",
+        "memory": "61%",
         "cpu": "67%",
-        "cpu_cores": "2624m",
-        "memory_bytes": "8643Mi",
+        "cpu_cores": "2592m",
+        "memory_bytes": "8190Mi",
         "Name": "aks-agentpool-10344397-28"
       },
       {
-        "memory": "34%",
-        "cpu": "33%",
-        "cpu_cores": "1310m",
-        "memory_bytes": "4581Mi",
+        "memory": "35%",
+        "cpu": "34%",
+        "cpu_cores": "1315m",
+        "memory_bytes": "4716Mi",
         "Name": "aks-agentpool-10344397-3"
       },
       {
         "memory": "69%",
-        "cpu": "78%",
-        "cpu_cores": "3024m",
-        "memory_bytes": "9275Mi",
+        "cpu": "80%",
+        "cpu_cores": "3096m",
+        "memory_bytes": "9220Mi",
         "Name": "aks-agentpool-10344397-4"
       },
       {
-        "memory": "57%",
-        "cpu": "74%",
-        "cpu_cores": "2866m",
-        "memory_bytes": "7669Mi",
+        "memory": "52%",
+        "cpu": "66%",
+        "cpu_cores": "2548m",
+        "memory_bytes": "7018Mi",
         "Name": "aks-agentpool-10344397-5"
       },
       {
-        "memory": "33%",
-        "cpu": "31%",
-        "cpu_cores": "1199m",
-        "memory_bytes": "4405Mi",
+        "memory": "32%",
+        "cpu": "29%",
+        "cpu_cores": "1141m",
+        "memory_bytes": "4318Mi",
         "Name": "aks-agentpool-10344397-6"
       },
       {
-        "memory": "59%",
+        "memory": "61%",
         "cpu": "44%",
-        "cpu_cores": "1736m",
-        "memory_bytes": "7934Mi",
+        "cpu_cores": "1727m",
+        "memory_bytes": "8168Mi",
         "Name": "aks-agentpool-10344397-7"
       },
       {
         "memory": "61%",
-        "cpu": "54%",
-        "cpu_cores": "2107m",
-        "memory_bytes": "8107Mi",
+        "cpu": "57%",
+        "cpu_cores": "2235m",
+        "memory_bytes": "8205Mi",
         "Name": "aks-agentpool-10344397-9"
       }
     ]
@@ -2835,13 +2541,13 @@
   {
     "Metrics": {
       "MTTR": "<20Min",
-      "Warning": "14",
+      "Warning": "79",
       "API_Availability": "100%",
-      "Average_Response_Time": "718 ms",
-      "Error": "14",
-      "Critical": "6",
-      "Informational": "17",
-      "Sync_Time": "18-Apr-2022 14:23:30"
+      "Average_Response_Time": "732 ms",
+      "Error": "28",
+      "Critical": "25",
+      "Informational": "152",
+      "Sync_Time": "18-Apr-2022 18:21:56"
     }
   },
   {
