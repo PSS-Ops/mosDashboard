@@ -30,9 +30,9 @@
   {
     "Datadog_Monitoring_Alerts": [
       {
-        "Count": "0",
+        "Count": "1",
         "Alert_Name": "Alert",
-        "Url": ""
+        "Url": "https://app.datadoghq.com/monitors/triggered"
       },
       {
         "Count": "0",
@@ -50,33 +50,33 @@
     "CatchPoint_Monitoring": [
       {
         "API_Name": "Admin",
-        "Availability_Test": "10.317%",
+        "Availability_Test": "100%",
         "Availability_Prod": "100%",
-        "Availability_Demo": "9.028%"
+        "Availability_Demo": "100%"
       },
       {
         "API_Name": "Api",
-        "Availability_Test": "10.317%",
+        "Availability_Test": "100%",
         "Availability_Prod": "100%",
-        "Availability_Demo": "9.028%"
+        "Availability_Demo": "100%"
       },
       {
         "API_Name": "Login",
-        "Availability_Test": "10.400%",
+        "Availability_Test": "100%",
         "Availability_Prod": "100%",
-        "Availability_Demo": "9.028%"
+        "Availability_Demo": "100%"
       },
       {
         "API_Name": "Sync",
-        "Availability_Test": "10.040%",
+        "Availability_Test": "100%",
         "Availability_Prod": "100%",
-        "Availability_Demo": "9.028%"
+        "Availability_Demo": "99.306%"
       },
       {
         "API_Name": "UEM",
-        "Availability_Test": "10.317%",
+        "Availability_Test": "100%",
         "Availability_Prod": "100%",
-        "Availability_Demo": "9.028%"
+        "Availability_Demo": "100%"
       }
     ]
   },
@@ -85,27 +85,27 @@
       {
         "API_Name": "Admin",
         "Availability_Prod": "100%",
-        "Availability_Demo": "39.05%"
+        "Availability_Demo": "100%"
       },
       {
         "API_Name": "Api",
         "Availability_Prod": "100%",
-        "Availability_Demo": "31.13%"
+        "Availability_Demo": "80.00%"
       },
       {
         "API_Name": "Login",
         "Availability_Prod": "100%",
-        "Availability_Demo": "31.25%"
+        "Availability_Demo": "80.00%"
       },
       {
         "API_Name": "Sync",
         "Availability_Prod": "100%",
-        "Availability_Demo": "39.10%"
+        "Availability_Demo": "100%"
       },
       {
         "API_Name": "UEM",
         "Availability_Prod": "100%",
-        "Availability_Demo": "39.05%"
+        "Availability_Demo": "100%"
       }
     ]
   },
@@ -113,38 +113,38 @@
     "Azure_Backup": [
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,6 hours,41 minutes,10 seconds",
-        "DateTime": "8/22/2022 1:43:47 AM",
+        "CompletedAt": "0 days,7 hours,45 minutes,5 seconds",
+        "DateTime": "8/23/2022 1:34:00 AM",
         "VM_Name": "demo-stretto-b1"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,6 hours,45 minutes,11 seconds",
-        "DateTime": "8/22/2022 1:40:16 AM",
+        "CompletedAt": "0 days,7 hours,45 minutes,19 seconds",
+        "DateTime": "8/23/2022 1:34:15 AM",
         "VM_Name": "demo-stretto-b2"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,22 hours,10 minutes,50 seconds",
-        "DateTime": "8/21/2022 10:15:05 AM",
+        "CompletedAt": "0 days,23 hours,8 minutes,11 seconds",
+        "DateTime": "8/22/2022 10:11:52 AM",
         "VM_Name": "new-stretto"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,23 hours,9 minutes,26 seconds",
-        "DateTime": "8/21/2022 9:16:57 AM",
+        "CompletedAt": "1 days,0 hours,2 minutes,1 seconds",
+        "DateTime": "8/22/2022 9:18:31 AM",
         "VM_Name": "new-stretto-b2"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,16 hours,42 minutes,52 seconds",
-        "DateTime": "8/21/2022 3:44:23 PM",
+        "CompletedAt": "0 days,17 hours,46 minutes,20 seconds",
+        "DateTime": "8/22/2022 3:35:04 PM",
         "VM_Name": "prod-stretto-b1"
       },
       {
         "Backup_Status": "Success",
-        "CompletedAt": "0 days,16 hours,50 minutes,50 seconds",
-        "DateTime": "8/21/2022 3:36:53 PM",
+        "CompletedAt": "0 days,17 hours,40 minutes,28 seconds",
+        "DateTime": "8/22/2022 3:41:25 PM",
         "VM_Name": "prod-stretto-b2"
       }
     ]
@@ -153,8 +153,8 @@
     "Metrics": {
       "MTTR": "<20Min",
       "API_Availability": "100%",
-      "Average_Response_Time": "234 ms",
-      "Sync_Time": "22-Aug-2022 17:07:11"
+      "Average_Response_Time": "239 ms",
+      "Sync_Time": "23-Aug-2022 12:02:58"
     }
   }
 ]
