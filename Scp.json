@@ -12,7 +12,7 @@
             "Scenario": "Number of IoTHub Units"
           },
           {
-            "Output": "8286832",
+            "Output": "12766226",
             "Scenario": "Messages used today"
           },
           {
@@ -20,23 +20,23 @@
             "Scenario": "Daily messages quota"
           },
           {
-            "Output": "124172",
+            "Output": "124228",
             "Scenario": "IoT Devices"
           },
           {
-            "Output": "59.98 M",
+            "Output": "61.59 M",
             "Scenario": "Total number of messages used(Max)"
           },
           {
-            "Output": "34.98 M",
+            "Output": "35.99 M",
             "Scenario": "Device to cloud messages"
           },
           {
-            "Output": "42.03 k",
+            "Output": "42.55 k",
             "Scenario": "Connected Devices(Max)"
           },
           {
-            "Output": "130.39 k",
+            "Output": "124.23 k",
             "Scenario": "Total IoT Device(Max)"
           },
           {
@@ -100,11 +100,11 @@
             "Name": "CloudPlatform.Tenant.Web_IN_1"
           },
           {
-            "Status": "25.4959 %",
+            "Status": "25.4775 %",
             "Name": "CPU Usage of Tenant Workers"
           },
           {
-            "Status": "1.2585 %",
+            "Status": "0.9752 %",
             "Name": "CPU Usage of Tenant Web"
           }
         ]
@@ -163,7 +163,46 @@
       }
     ]
   },
-  
+  {
+    "Azure_API": [
+      {
+        "API_Name": "sentgdprodregui",
+        "Availability": "100%"
+      },
+      {
+        "API_Name": "sentt01dprodeventflowpipelinefa",
+        "Availability": "100%"
+      },
+      {
+        "API_Name": "sentt01dprodfileupload",
+        "Availability": "100%"
+      },
+      {
+        "API_Name": "sentt01dprodfileuploadops",
+        "Availability": "100%"
+      },
+      {
+        "API_Name": "sentt01dprodfufunctionapp",
+        "Availability": "100%"
+      },
+      {
+        "API_Name": "sentt02dprodeventflowpipelinefa",
+        "Availability": "100%"
+      },
+      {
+        "API_Name": "sentt02dprodfileupload",
+        "Availability": "100%"
+      },
+      {
+        "API_Name": "sentt02dprodfileuploadops",
+        "Availability": "100%"
+      },
+      {
+        "API_Name": "sentt02dprodfufunctionapp",
+        "Availability": "100%"
+      }
+    ]
+  },
   {
     "Azure_Alert": [
       {
