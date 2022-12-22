@@ -1,1 +1,308 @@
-[{"Datadog_Monitoring_VM":[{"Availability":"ACTIVE","VM_Name":"new-stretto.honeywell.com"},{"Availability":"ACTIVE","VM_Name":"new-stretto-b2.honeywell.com"},{"Availability":"ACTIVE","VM_Name":"demo-stretto-b1.honeywell.com"},{"Availability":"ACTIVE","VM_Name":"demo-stretto-b2"},{"Availability":"ACTIVE","VM_Name":"prod-stretto-b1.honeywell.com"},{"Availability":"ACTIVE","VM_Name":"prod-stretto-b2.honeywell.com"}]},{"Datadog_Monitoring_Alerts":[{"Count":"0","Alert_Name":"Alert","Url":""},{"Count":"0","Alert_Name":"Warn","Url":""},{"Count":"0","Alert_Name":"No Data","Url":""}]},{"CatchPoint_Monitoring":[{"API_Name":"Admin","Availability_Test":"100%","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"Api","Availability_Test":"100%","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"Login","Availability_Test":"100%","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"Sync","Availability_Test":"100%","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"UEM","Availability_Test":"100%","Availability_Prod":"100%","Availability_Demo":"100%"}]},{"Azure_API":[{"API_Name":"Admin","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"Api","Availability_Prod":"82.07%","Availability_Demo":"--"},{"API_Name":"Login","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"Sync","Availability_Prod":"100%","Availability_Demo":"100%"},{"API_Name":"UEM","Availability_Prod":"100%","Availability_Demo":"100%"}]},{"Azure_Backup":[{"Backup_Status":"Success","CompletedAt":"0 days,9 hours,42 minutes,2 seconds","DateTime":"12\/22\/2022 1:41:27 AM","VM_Name":"demo-stretto-b1"},{"Backup_Status":"Success","CompletedAt":"0 days,9 hours,41 minutes,30 seconds","DateTime":"12\/22\/2022 1:42:27 AM","VM_Name":"demo-stretto-b2"},{"Backup_Status":"Success","CompletedAt":"1 days,1 hours,13 minutes,7 seconds","DateTime":"12\/21\/2022 10:11:19 AM","VM_Name":"new-stretto"},{"Backup_Status":"Success","CompletedAt":"1 days,2 hours,11 minutes,58 seconds","DateTime":"12\/21\/2022 9:12:57 AM","VM_Name":"new-stretto-b2"},{"Backup_Status":"Success","CompletedAt":"0 days,19 hours,49 minutes,59 seconds","DateTime":"12\/21\/2022 3:35:42 PM","VM_Name":"prod-stretto-b1"},{"Backup_Status":"Success","CompletedAt":"0 days,19 hours,42 minutes,44 seconds","DateTime":"12\/21\/2022 3:43:27 PM","VM_Name":"prod-stretto-b2"}]},{"Metrics":{"MTTR":"<20Min","API_Availability":"96.42%","Average_Response_Time":"988 ms","Sync_Time":"22-Dec-2022 11:26:16"}},{"Azure_API":[{"Last_24hrs":[{"API_Name":"Admin","Availability":"100%"},{"API_Name":"Api","Availability":"--"},{"API_Name":"Login","Availability":"100%"},{"API_Name":"Sync","Availability":"100%"},{"API_Name":"UEM","Availability":"100%"}]},{"Last_12hrs":[{"API_Name":"Admin","Availability":"100%"},{"API_Name":"Api","Availability":"--"},{"API_Name":"Login","Availability":"100%"},{"API_Name":"Sync","Availability":"100%"},{"API_Name":"UEM","Availability":"100%"}]},{"Last_7days":[{"API_Name":"Admin","Availability":"100%"},{"API_Name":"Api","Availability":"80.32%"},{"API_Name":"Login","Availability":"100%"},{"API_Name":"Sync","Availability":"100%"},{"API_Name":"UEM","Availability":"100%"}]},{"Last_30days":[{"API_Name":"Admin","Availability":"100%"},{"API_Name":"Api","Availability":"--"},{"API_Name":"Login","Availability":"100%"},{"API_Name":"Sync","Availability":"100%"},{"API_Name":"UEM","Availability":"100%"}]},{"Last_60days":[{"API_Name":"Admin","Availability":"100%"},{"API_Name":"Api","Availability":"--"},{"API_Name":"Login","Availability":"100%"},{"API_Name":"Sync","Availability":"100%"},{"API_Name":"UEM","Availability":"100%"}]},{"Last_90days":[{"API_Name":"Admin","Availability":"100%"},{"API_Name":"Api","Availability":"97.79%"},{"API_Name":"Login","Availability":"100%"},{"API_Name":"Sync","Availability":"100%"},{"API_Name":"UEM","Availability":"100%"}]}]}]
+[
+  {
+    "Datadog_Monitoring_VM": [
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "new-stretto.honeywell.com"
+      },
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "new-stretto-b2.honeywell.com"
+      },
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "demo-stretto-b1.honeywell.com"
+      },
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "demo-stretto-b2"
+      },
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "prod-stretto-b1.honeywell.com"
+      },
+      {
+        "Availability": "ACTIVE",
+        "VM_Name": "prod-stretto-b2.honeywell.com"
+      }
+    ]
+  },
+  {
+    "Datadog_Monitoring_Alerts": [
+      {
+        "Count": "0",
+        "Alert_Name": "Alert",
+        "Url": ""
+      },
+      {
+        "Count": "0",
+        "Alert_Name": "Warn",
+        "Url": ""
+      },
+      {
+        "Count": "0",
+        "Alert_Name": "No Data",
+        "Url": ""
+      }
+    ]
+  },
+  {
+    "CatchPoint_Monitoring": [
+      {
+        "API_Name": "Admin",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Api",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Login",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Sync",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "UEM",
+        "Availability_Test": "100%",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      }
+    ]
+  },
+  {
+    "Azure_API_All": [
+      {
+        "API_Name": "Admin",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Api",
+        "Availability_Prod": "82.07%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Login",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "Sync",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      },
+      {
+        "API_Name": "UEM",
+        "Availability_Prod": "100%",
+        "Availability_Demo": "100%"
+      }
+    ]
+  },
+  {
+    "Azure_Backup": [
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,9 hours,42 minutes,2 seconds",
+        "DateTime": "12/22/2022 1:41:27 AM",
+        "VM_Name": "demo-stretto-b1"
+      },
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,9 hours,41 minutes,30 seconds",
+        "DateTime": "12/22/2022 1:42:27 AM",
+        "VM_Name": "demo-stretto-b2"
+      },
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "1 days,1 hours,13 minutes,7 seconds",
+        "DateTime": "12/21/2022 10:11:19 AM",
+        "VM_Name": "new-stretto"
+      },
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "1 days,2 hours,11 minutes,58 seconds",
+        "DateTime": "12/21/2022 9:12:57 AM",
+        "VM_Name": "new-stretto-b2"
+      },
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,19 hours,49 minutes,59 seconds",
+        "DateTime": "12/21/2022 3:35:42 PM",
+        "VM_Name": "prod-stretto-b1"
+      },
+      {
+        "Backup_Status": "Success",
+        "CompletedAt": "0 days,19 hours,42 minutes,44 seconds",
+        "DateTime": "12/21/2022 3:43:27 PM",
+        "VM_Name": "prod-stretto-b2"
+      }
+    ]
+  },
+  {
+    "Metrics": {
+      "MTTR": "<20Min",
+      "API_Availability": "96.42%",
+      "Average_Response_Time": "988 ms",
+      "Sync_Time": "22-Dec-2022 11:26:16"
+    }
+  },
+  {
+    "Azure_API": [
+      {
+        "Last_24hrs": [
+          {
+            "API_Name": "Admin",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Api",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Login",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Sync",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "UEM",
+            "Availability": "100%"
+          }
+        ]
+      },
+      {
+        "Last_12hrs": [
+          {
+            "API_Name": "Admin",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Api",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Login",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Sync",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "UEM",
+            "Availability": "100%"
+          }
+        ]
+      },
+      {
+        "Last_7days": [
+          {
+            "API_Name": "Admin",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Api",
+            "Availability": "80.32%"
+          },
+          {
+            "API_Name": "Login",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Sync",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "UEM",
+            "Availability": "100%"
+          }
+        ]
+      },
+      {
+        "Last_30days": [
+          {
+            "API_Name": "Admin",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Api",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Login",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Sync",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "UEM",
+            "Availability": "100%"
+          }
+        ]
+      },
+      {
+        "Last_60days": [
+          {
+            "API_Name": "Admin",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Api",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Login",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Sync",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "UEM",
+            "Availability": "100%"
+          }
+        ]
+      },
+      {
+        "Last_90days": [
+          {
+            "API_Name": "Admin",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Api",
+            "Availability": "97.79%"
+          },
+          {
+            "API_Name": "Login",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "Sync",
+            "Availability": "100%"
+          },
+          {
+            "API_Name": "UEM",
+            "Availability": "100%"
+          }
+        ]
+      }
+    ]
+  }
+]
