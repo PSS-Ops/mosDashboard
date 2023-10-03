@@ -317,8 +317,37 @@
             ]
           }
         ]
+      },
+      {
+        "Devices_trend":[
+          {
+            "quarter": "2022_Q4",
+            "connected": "54",
+            "Registered":"138"
+            
+          },
+          {
+            "quarter": "2023_Q1",
+            "connected": "66",
+            "Registered":"160"
+            
+          },
+          {
+            "quarter": "2023_Q2",
+            "connected": "77",
+            "Registered":"178"
+            
+          },
+          {
+            "quarter": "2023_Q3",
+            "connected": "84",
+            "Registered":"187"
+            
+          }
+          ]
       }
     ],
+     
     "VCNG": [
     {"NameSpace":"Service Name Space Status",
 		  "Status": "OK",
@@ -326,43 +355,43 @@
 		{
 		"name":"Kubernetes",
 		"name_space":"default",
-		 "Status": "True"
+		 "Status": "Ok"
 		},{
 		"name":"Kube-dns",
 		"name_space":"kube-system",
-		 "Status": "True"
+		 "Status": "Ok"
 		},{
 		"name":"metrics-server",
 		"name_space":"kube-system",
-		 "Status": "True"
+		 "Status": "Ok"
 		},{
 		"name":"bookclub",
 		"name_space":"fast-track-istio",
-		 "Status": "True"
+		 "Status": "Ok"
 		},{
 		"name":"istiod",
 		"name_space":"istio-system",
-		 "Status": "True"
+		 "Status": "Ok"
 		},{
 		"name":"istio-ingressgateway",
 		"name_space":"istio-system",
-		 "Status": "True"
+		 "Status": "Ok"
 		},{
 		"name":"istio-ingressgateway-private",
 		"name_space":"istio-system",
-		 "Status": "True"
+		 "Status": "Ok"
 		},{
 		"name":"istio-ingressgateway-private",
 		"name_space":"istio-system",
-		 "Status": "True"
+		 "Status": "Ok"
 		},{
 		"name":"voiceconsole-zst7",
 		"name_space":"voiceconsole",
-		 "Status": "True"
+		 "Status": "Ok"
 		},{
 		"name":"kube-state-metrics",
 		"name_space":"elastic",
-		 "Status": "True"
+		 "Status": "Ok"
 		
       }
    
@@ -392,5 +421,6 @@
 		]
 	  }
 	  ]
+	 
   }
 ]
