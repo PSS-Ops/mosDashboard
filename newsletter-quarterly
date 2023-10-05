@@ -1,6 +1,6 @@
 [
   {
- "Category": "Infra/App Availability",
+    "Category": "Infra/App Availability",
     "OpIntel": [
       {
         "cluster_availability": [
@@ -319,115 +319,137 @@
         ]
       },
       {
-        "Devices_trend":[
+        "Devices_trend": [
           {
             "quarter": "2022_Q4",
             "connected": "54",
-            "Registered":"138"
-            
+            "Registered": "138"
           },
           {
             "quarter": "2023_Q1",
             "connected": "66",
-            "Registered":"160"
-            
+            "Registered": "160"
           },
           {
             "quarter": "2023_Q2",
             "connected": "77",
-            "Registered":"178"
-            
+            "Registered": "178"
           },
           {
             "quarter": "2023_Q3",
             "connected": "84",
-            "Registered":"187"
-            }
-         ]
+            "Registered": "187"
+          }
+        ]
       },
-	{
-        "Trend_info":[
-           "As device onboarding increases, good to review the existing  device Connectivity status implementation and maintain the reliability .",
-           "Unused customer tenants accounts must  be prioritize and remove from IOT Hub to avoid impact on existing transaction message trend processing.",
-           "Connected Devices 2023_Q2 :77K, 2023_ Q3: ~84k",
-           "Prod Devices  migration to OpIntel End point (In Progress)"
-          ]
+      {
+        "Trend_info": [
+          "As device onboarding increases, good to review the existing  device Connectivity status implementation and maintain the reliability .",
+          "Unused customer tenants accounts must  be prioritize and remove from IOT Hub to avoid impact on existing transaction message trend processing.",
+          "Connected Devices 2023_Q2 :77K, 2023_ Q3: ~84k",
+          "Prod Devices  migration to OpIntel End point (In Progress)"
+        ]
+      },
+      {
+        "Incidents": [
+          {
+            "priority": "P1",
+            "date": "26th July",
+            "message": "MongoDB wait queue exceptions indicating there was an over consumption of traffic to Opintel services,   Unexpected increase of auth calls by a factor of ten overwhelming the services has been observed which caused cascading effects to the overall service. This increase was unexpected as the endpoint devices were sending retries multiple times each per hour as the API auth services were busy trying to process.(HCECO-34892)"
+          },
+          {
+            "priority": "P1",
+            "date": "4th Aug",
+            "message": "Customers are not able to view their Device Management Software or Schedule Software Updates ,Team identified that Vendor (Microsoft) has made aks cluster version upgrade changes.  (MSFT# 2308040030003571)"
+          }
+        ]
       }
     ],
-     
     "VCNG": [
-    {"NameSpace":"Service Name Space Status",
-		  "Status": "OK",
-		  "Service_API": [
-		{
-		"name":"Kubernetes",
-		"name_space":"default",
-		 "Status": "Ok"
-		},{
-		"name":"Kube-dns",
-		"name_space":"kube-system",
-		 "Status": "Ok"
-		},{
-		"name":"metrics-server",
-		"name_space":"kube-system",
-		 "Status": "Ok"
-		},{
-		"name":"bookclub",
-		"name_space":"fast-track-istio",
-		 "Status": "Ok"
-		},{
-		"name":"istiod",
-		"name_space":"istio-system",
-		 "Status": "Ok"
-		},{
-		"name":"istio-ingressgateway",
-		"name_space":"istio-system",
-		 "Status": "Ok"
-		},{
-		"name":"istio-ingressgateway-private",
-		"name_space":"istio-system",
-		 "Status": "Ok"
-		},{
-		"name":"istio-ingressgateway-private",
-		"name_space":"istio-system",
-		 "Status": "Ok"
-		},{
-		"name":"voiceconsole-zst7",
-		"name_space":"voiceconsole",
-		 "Status": "Ok"
-		},{
-		"name":"kube-state-metrics",
-		"name_space":"elastic",
-		 "Status": "Ok"
-		
+      {
+        "NameSpace": "Service Name Space Status",
+        "Status": "OK",
+        "Service_API": [
+          {
+            "name": "Kubernetes",
+            "name_space": "default",
+            "Status": "Ok"
+          },
+          {
+            "name": "Kube-dns",
+            "name_space": "kube-system",
+            "Status": "Ok"
+          },
+          {
+            "name": "metrics-server",
+            "name_space": "kube-system",
+            "Status": "Ok"
+          },
+          {
+            "name": "bookclub",
+            "name_space": "fast-track-istio",
+            "Status": "Ok"
+          },
+          {
+            "name": "istiod",
+            "name_space": "istio-system",
+            "Status": "Ok"
+          },
+          {
+            "name": "istio-ingressgateway",
+            "name_space": "istio-system",
+            "Status": "Ok"
+          },
+          {
+            "name": "istio-ingressgateway-private",
+            "name_space": "istio-system",
+            "Status": "Ok"
+          },
+          {
+            "name": "istio-ingressgateway-private",
+            "name_space": "istio-system",
+            "Status": "Ok"
+          },
+          {
+            "name": "voiceconsole-zst7",
+            "name_space": "voiceconsole",
+            "Status": "Ok"
+          },
+          {
+            "name": "kube-state-metrics",
+            "name_space": "elastic",
+            "Status": "Ok"
+          }
+        ]
       }
-   
-    ]
-    }
     ],
     "UnifiedCommunications": [
-      {"Appname":"SmartTalk",
-		  "version": "1.0",
-		  "EndPoint_API": [
-		{
-		"name":"SYNC",
-		"Availability":"100%"
-		},{
-		"name":"Admin",
-		"Availability":"100%"
-		},{
-		"name":"UEM",
-		"Availability":"100%"
-		},{
-		"name":"API",
-		"Availability":"100%"
-		},{
-		"name":"Login",
-		"Availability":"100%"
-		}
-		]
-	  }
-	  ]
-	 
+      {
+        "Appname": "SmartTalk",
+        "version": "1.0",
+        "EndPoint_API": [
+          {
+            "name": "SYNC",
+            "Availability": "100%"
+          },
+          {
+            "name": "Admin",
+            "Availability": "100%"
+          },
+          {
+            "name": "UEM",
+            "Availability": "100%"
+          },
+          {
+            "name": "API",
+            "Availability": "100%"
+          },
+          {
+            "name": "Login",
+            "Availability": "100%"
+          }
+        ]
+      }
+    ]
   }
 ]
